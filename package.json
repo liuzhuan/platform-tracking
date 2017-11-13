@@ -1,0 +1,24 @@
+{
+  "name": "platform-tracking",
+  "version": "1.0.0",
+  "description": "来源追踪工具类",
+  "main": "index.js",
+  "scripts": {
+    "start": "anywhere",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/liuzhuan/platform-tracking.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/liuzhuan/platform-tracking/issues"
+  },
+  "homepage": "https://github.com/liuzhuan/platform-tracking#readme",
+  "devDependencies": {
+    "anywhere": "^1.4.0"
+  }
+}

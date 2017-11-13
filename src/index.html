@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Index of platform tracking</title>
+</head>
+<body>
+  <h1>Platform Tracking</h1>
+  <p>
+    <a href="./pa.html">Page A</a>
+    <div class="js-click">pageB</div>
+  </p>
+</body>
+<script src="js/common.js"></script>
+<script>
+  document.querySelector('.js-click').onclick = function(){
+    location.href = './pb.html?from=other&uuid=XYZ#barz'
+  }
+</script>
+</html>
